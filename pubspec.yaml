@@ -1,0 +1,30 @@
+name: login
+description: A new Flutter project.
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^0.1.0
+ 
+  
+  
+flutter_icons:
+  android: "launcher_icon" 
+  ios: true
+  image_path: "assets/patti.jpg"
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_launcher_icons: "^0.7.0"  
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/patti.jpg
+    - assets/alucard.jpg
+  fonts:
+      - family: Nunito
+        fonts:
+          - asset: assets/Nunito.ttf
+
